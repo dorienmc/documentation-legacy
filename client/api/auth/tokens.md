@@ -6,7 +6,7 @@ Tokens (or access tokens) are used to authorise a user on an endpoint. When a us
 ### GET /tokens
 Get all tokens that have been issued. Tokens can original from a local login attempt or via the cloud. On a cloud login, the cloud's device registertoken (each connected device has one) is used by the FORMIDE platform to exchange for an access token for the user that is requesting access (taking into account their permissions).
 
-Example response
+#### Example response
 ```
 [
     {
@@ -38,7 +38,7 @@ Example response
 ### POST /tokens
 Manually create a new token with certain permissions. Only admin users can generate new tokens to distribute to other users. This type of token generation is useful when developing modules for the client or when attaching your own management system to multiple devices.
 
-Example request
+#### Example request
 ```
 {
     "permissions": [
@@ -47,13 +47,13 @@ Example request
 }
 ```
 
-Response
+#### Response
 ```
 {
     "session": {
         "access_token": "YOUR_ACCESS_TOKEN"
     },
-    "success" true
+    "success": true
 }
 ```
 
