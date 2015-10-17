@@ -3,7 +3,7 @@
 
 ---
 ### POST /login
-Example request
+#### Example request
 ```
 {
 	"username": "admin@local",
@@ -11,22 +11,24 @@ Example request
 }
 ```
 
-Example response
+#### Response
 ```
 {
 	"success": true,
 	"session": {
-        "access_token": "YOUR_ACCESS_TOKEN"
+    	"access_token": "YOUR_ACCESS_TOKEN"
     }
 }
 ```
 
 ---
 ### GET /session
-Example response
+#### Response
 ```
 {
 	"success": true,
-	"access_token": "YOUR_ACCESS_TOKEN"
+	"session": {
+    	"access_token": "YOUR_ACCESS_TOKEN"
+    }
 }
 ```
