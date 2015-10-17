@@ -29,3 +29,25 @@ screen /dev/device_port 115200
 A new shell session should start, this time inside of The Element. Here you can type the username and password (both `debian`) to log in.
 
 ** We advice not to edit any files using screen as this might break the endlines. For example doing this with /etc/rc.local will break the boot sequence of the device after which you can't use it anymore! **
+
+---
+### Run the update
+Running the update is just a few command in the terminal. Run the following commands one by one. Some commands need to be run as `sudo` and will prompt you for a password. Usually, the password is the same as the one from your current user. In case of The Element, it's `debian`.
+
+#### Stop the current formide-client process
+```
+sudo pkill -f formide-client
+```
+This stops the formide-client process currently running. Prevents trying to use the same TCP port twice when manually restarting it after the update.
+
+#### Pull the update from NPM
+```
+npm install -g formide-client
+```
+This pull the latest release for formide-client from NPM (Node.js Package Manager).
+
+#### Restart the formide-client process (or reboot)
+```
+sudo -u debian /home/debian/npm-global/bin/formide-client >formide-client.txt 2>&1 &
+```
+This starts formide-client with the correct permissions and as the correct user. It also outputs the logs to a file cadded /formide-client.txt which we can use for later analysis.
