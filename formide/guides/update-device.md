@@ -44,7 +44,7 @@ This stops the formide-client process currently running. Prevents trying to use 
 ```
 npm install -g formide-client
 ```
-This pull the latest release for formide-client from NPM (Node.js Package Manager).
+This pull the latest release for formide-client from NPM (Node.js Package Manager). This step will take a while (between 5 and 10 minutes, depending on the speed of your device), so don't be scared when nothing happens for a while.
 
 #### Restart the formide-client process (or reboot)
 ```
