@@ -50,4 +50,8 @@ This pull the latest release for formide-client from NPM (Node.js Package Manage
 ```
 sudo -u debian /home/debian/npm-global/bin/formide-client >formide-client.txt 2>&1 &
 ```
-This starts formide-client with the correct permissions and as the correct user. It also outputs the logs to a file cadded /formide-client.txt which we can use for later analysis.
+This starts formide-client with the correct permissions and as the correct user. It also outputs the logs to a file cadded /formide-client.txt which we can use for later analysis. You can also reboot The Element to automatically start the updated formide-client application.
+
+```
+sudo reboot
+```
