@@ -15,7 +15,9 @@ Example response
 ```
 {
 	"success": true,
-	"access_token": "YOUR_ACCESS_TOKEN"
+	"session": {
+        "access_token": "YOUR_ACCESS_TOKEN"
+    }
 }
 ```
 
