@@ -131,14 +131,4 @@ socket.on('printer.finished', function(data) {
 
 ---
 ### Setup
-
-```
-socket.on('printer.setup', function(data) {
-    // printer port is not in dabase yet, so you have to connect it to one of your database printers
-    
-    /* {
-        device: "DEVICE_ID",
-        port: "SERIAL_PORT_NAME"
-    } */
-});
-```
+To setup a new printer, you can listen to `printer.connected` and check if the port that's in the data object is already configured or not. This is already taken care of by the default interface that ships with the client.
