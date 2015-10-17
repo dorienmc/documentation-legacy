@@ -130,6 +130,10 @@
 					{
 						"title": "Connect printer",
 						"link": "connect-printer"
+					},
+					{
+						"title": "Update client device",
+						"link": "update-device"
 					}
 				]
 			},
