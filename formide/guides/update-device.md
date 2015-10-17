@@ -4,3 +4,12 @@ This manual explains step by step how to update a device running the formide-cli
 This works with prototypes of The Element as well as custom devices like Raspberry Pi 2 or Beagle Bone Black.
 In the future, The Element will have automatic updates, so no manual updating is required.
 
+---
+### Get access
+The safest way to get access to your device is by using SSH. You can run the following command on your Mac or Linux machine to start an SSH session. You have to know the IP address of your device and be in the same network. The username for the prototype Element is `debian`.
+
+```
+ssh debian@YOUR_DEVICE_PI
+```
+
+If everything goes well, you'll be prompted to enter a password. For the prototype Element, the password is `debian`.
