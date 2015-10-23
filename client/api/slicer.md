@@ -2,7 +2,7 @@
 ## Slicer
 
 ---
-### POST /slice
+### POST /api/slicer/slice
 Start a new slicejobs. Depending on the selected files, this can take a while to respond.
 
 #### Example
@@ -42,5 +42,9 @@ Start a new slicejobs. Depending on the selected files, this can take a while to
 ```
 
 ---
-### GET /generaterequest/:printjobID
+### GET /api/slicer/generaterequest/:printjobID
 Get the full slicer config for a printjob.
+
+---
+### GET /api/slicer/reference
+Get the currently active reference file that the slicer used to check all input parameters.
