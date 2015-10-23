@@ -8,3 +8,11 @@ Outputs look like this:
 ### Levels
 The logging module has several log levels that you can filter on based on the environment that the client
 is running in (like development or production).
+
+The levels are:
+- error
+- warn
+- debug
+- verbose
+- silly
+- info
