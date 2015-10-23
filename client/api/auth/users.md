@@ -2,19 +2,19 @@
 ## Users
 
 ---
-### GET /users
+### GET /api/auth/users
 
 ---
-### GET /users/:id
+### GET /api/auth/users/:id
 
 ---
-### POST /invite
+### POST /api/auth/invite
 
 ---
-### POST /users
+### POST /api/auth/users
 
 ---
-### PUT /users/:id
+### PUT /api/auth/users/:id
 
 ---
-### DELETE /user/:id
+### DELETE /api/auth/user/:id
