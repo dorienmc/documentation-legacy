@@ -9,10 +9,10 @@ Outputs look like this:
 The logging module has several log levels that you can filter on based on the environment that the client
 is running in (like development or production).
 
-The levels are:
-- error
-- warn
-- debug
-- verbose
-- silly
-- info
+The levels with their corresponding functions are:
+- error: `FormideOS.log.error("This is an error")`
+- warn: `FormideOS.log.error("This is a warning")`
+- debug: `FormideOS.log.error("This is a debug message")`
+- verbose: `FormideOS.log.error("This is verbose")`
+- silly: `FormideOS.log.error("This is silly")`
+- info: `FormideOS.log.error("This is info")`
