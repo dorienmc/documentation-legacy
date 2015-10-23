@@ -69,12 +69,9 @@
 						"title": "Files",
 						"link": "files",
 						"children": [
+							
 							{
-								"title": "Download gcode",
-								"link": "download-gcode"
-							},
-							{
-								"title": "Download model",
+								"title": "Download",
 								"link": "download-model"
 							},
 							{
@@ -87,10 +84,6 @@
 						"title": "Resources",
 						"link": "resources",
 						"children": [
-							{
-								"title": "Gcodefiles",
-								"link": "gcodefiles"
-							},
 							{
 								"title": "Materials",
 								"link": "materials"
@@ -249,10 +242,7 @@
 						"title": "Resources",
 						"link": "resources",
 						"children": [
-							{
-								"title": "Gcodefiles",
-								"link": "gcodefiles"
-							},
+							
 							{
 								"title": "Materials",
 								"link": "materials"
