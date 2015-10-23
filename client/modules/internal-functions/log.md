@@ -5,6 +5,7 @@ Outputs look like this:
 
 ![](https://storage.googleapis.com/downloads.formide.com/cdn/images/formide-client-log.png)
 
+---
 ### Levels
 The logging module has several log levels that you can filter on based on the environment that the client
 is running in (like development or production).
