@@ -1,5 +1,6 @@
 ---
 ## Control printer
+You can control 3D printers based on port using the http api. This includes manual control, temperatures, start, pause, resume and stopping a printjob.
 
 ---
 ### GET /api/printer/:port/:command
