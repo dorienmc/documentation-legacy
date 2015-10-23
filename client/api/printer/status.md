@@ -8,11 +8,11 @@ Get a list and status of all attached printers.
 ```
 {
     "ttyUSB1": {
-        "status": 'printing'
+        "status": 'printing',
         "bed": {
             "temp": 30,
             "targetTemp": 50
-        }
+        },
         "extruders": [
             {
                 "id": 'T',
@@ -20,8 +20,8 @@ Get a list and status of all attached printers.
                 "targetTemp": 203
             }
         ],
-        "timeStarted": "Mon Jul 27 2015 20:23:21 GMT+0200 (CEST)"
-        "timeNow": "Mon Jul 27 2015 21:07:45 GMT+0200 (CEST)"
+        "timeStarted": "Mon Jul 27 2015 20:23:21 GMT+0200 (CEST)",
+        "timeNow": "Mon Jul 27 2015 21:07:45 GMT+0200 (CEST)",
         "totalLines": 340403,
         "currentLine": 203021,
         "progress": 59.64,
@@ -62,11 +62,11 @@ Get the current status of a connected printer by port.
 
 ```
 {
-    "status": 'printing'
+    "status": 'printing',
     "bed": {
         "temp": 30,
         "targetTemp": 50
-    }
+    },
     "extruders": [
         {
             "id": 'T',
@@ -74,8 +74,8 @@ Get the current status of a connected printer by port.
             "targetTemp": 203
         }
     ],
-    "timeStarted": "Mon Jul 27 2015 20:23:21 GMT+0200 (CEST)"
-    "timeNow": "Mon Jul 27 2015 21:07:45 GMT+0200 (CEST)"
+    "timeStarted": "Mon Jul 27 2015 20:23:21 GMT+0200 (CEST)",
+    "timeNow": "Mon Jul 27 2015 21:07:45 GMT+0200 (CEST)",
     "totalLines": 340403,
     "currentLine": 203021,
     "progress": 59.64,
