@@ -8,7 +8,7 @@ Get a list and status of all attached printers.
 ```
 {
     "ttyUSB1": {
-        "status": 'printing',
+        "status": "printing",
         "bed": {
             "temp": 30,
             "targetTemp": 50
@@ -62,7 +62,7 @@ Get the current status of a connected printer by port.
 
 ```
 {
-    "status": 'printing',
+    "status": "printing",
     "bed": {
         "temp": 30,
         "targetTemp": 50
