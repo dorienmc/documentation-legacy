@@ -2,9 +2,10 @@
 ## Printer status
 
 ---
-### GET /
+### GET /api/printer
 Get a list and status of all attached printers.
 
+#### Example response
 ```
 {
     "ttyUSB1": {
@@ -32,9 +33,10 @@ Get a list and status of all attached printers.
 ```
 
 ---
-### GET /:port/commands
+### GET /api/printer/:port/commands
 Get a list of commands available for a connected printer by port.
 
+#### Example response
 ```
 {
     "home": ["G28"],
@@ -57,9 +59,10 @@ Get a list of commands available for a connected printer by port.
 ```
 
 ---
-### GET /:port/status
+### GET /api/printer/:port/status
 Get the current status of a connected printer by port.
 
+#### Example response
 ```
 {
     "status": "printing",
