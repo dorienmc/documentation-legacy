@@ -2,7 +2,7 @@
 ## Session
 
 ---
-### POST /login
+### POST /api/auth/login
 #### Example request
 ```
 {
@@ -22,7 +22,7 @@
 ```
 
 ---
-### GET /session
+### GET /api/auth/session
 #### Response
 ```
 {
