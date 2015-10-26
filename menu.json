@@ -292,10 +292,6 @@
 								"link": "config"
 							},
 							{
-								"title": "FormideOS.debug",
-								"link": "debug"
-							},
-							{
 								"title": "FormideOS.events",
 								"link": "events"
 							},
