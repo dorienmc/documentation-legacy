@@ -1,6 +1,6 @@
 ---
 ### Download Beta Image
-In order to ensure that FORMIDEOS continues to improve at a blistering pace, we ask our Beta users to contribute and maintain a constant flow of feedback with our development team. By installing formide-client through [NPM](/#/docs/client/install/npm), you are accepting the role of an official "FORMIDE Contributor".
+In order to ensure that formide-client continues to improve at a blistering pace, we ask our Beta users to contribute and maintain a constant flow of feedback with our development team. By installing formide-client through [NPM](/#/docs/client/install/npm), you are accepting the role of an official "FORMIDE Contributor".
 
 ---
 ### Support
