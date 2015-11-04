@@ -13,7 +13,7 @@ You can [pre-order The Element](https://formide.com/preorder) right now. But if 
 ## Binaries
 We use pre-built binaries for Katana and our printer drivers. This is a list of binaries that are available (and will be installed automatically on compatible machines).
 
-|  Node version | OS | Arch
-|---|---|---|
-| 0.12.7 | Mac OSX | x86 |
-| 4.2.2 | Mac OSX | x86 |
+|  OS     | Arch   | Node version |
+|---      |---     |---           |
+| Mac OSX | x86    | 0.12.7       |
+|         |        | 4.2.2        |
