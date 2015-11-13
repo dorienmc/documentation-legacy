@@ -3,16 +3,28 @@
 We make changes to Katana's input parameters every now and then to add even more functionality. For platform users, there is no action required. If you use manual sliceparameters however, it is advised to check this log to see if your app is still up to date.
 
 ---
+###V1.0.6 (to be released)
+**Removed**
+- bottom: cutOff
+
+**Changed**
+- Renamed all dynamic parameters to camelCase and all parameter groups (eg. `multiextrusion` -> `multiExtrusion`)
+
+---
+### v1.0.5
+**Added**
+- model: `scale` and `rotation` (both x,y,z `float`)
+- regionSettings: `infillPattern`
+
+**Changed**
+ - Renamed all non-dynamic parameters to camelCase
+ - Renamed `model.x`, `model.y`, `model.z` to `model.position.x`, `model.position.y`, `model.position.z` 
+
+---
 ### v1.0.2
 **Added**
 - skin: `upskinCount` and `downskinCount`, both `int`
 
----
-### v1.0.1
-**Added**
-- infill: new pattern `INFILL_CUSTOM`
-- infill: `unsigned int angle` (not mandatory)
-- infill: `vector<string> customPattern` (with options ??, ?? and Wave) and string `customPatternSize` with the size of the custom pattern given in `customPattern`
 
 ---
 ### v1.0.0
@@ -31,12 +43,10 @@ First stable! This v1 release of Katana is the first stable enough version to ca
 ---
 ### v0.10.0
 **Added**
-- infill: new pattern INFILL_CUSTOM
 - support: `bool supportModel`, `int orientationAngle`, `int wallDistance`
 - bottom: `int numberOfOutlines`
 - top: `int numberOfOutlines`
 - regionSettings: `float startheight` (mandatory), `float endheight` (not mandatory)
-- infill: `unsigned int angle` (not mandatory)
 
 **Removed**
 - bottom: `thickness`
