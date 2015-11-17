@@ -3,7 +3,7 @@
 We make changes to Katana's input parameters every now and then to add even more functionality. For platform users, there is no action required. If you use manual sliceparameters however, it is advised to check this log to see if your app is still up to date.
 
 ---
-###V1.0.6 (to be released)
+### v1.0.6 (to be released)
 **Removed**
 - bottom: cutOff
 
