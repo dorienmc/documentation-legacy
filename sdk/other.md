@@ -5,7 +5,7 @@
 ### Events
 The 3D environment triggers some events when things happen. You can listen to those by using the formideSDK.on function.
 
-```
+``` js
 formideSDK.on('modelSelected', function(event) {
     // do something when a model is selected
 });
@@ -39,7 +39,7 @@ formideSDK.on('endTransform', function(event) {
 ### Register app
 The safest way to interact with the 3D environment is to register a JavaScript app in your SDK instance. When you do this, we make sure that everything is loaded properly, in the right order and that all APIs are available. Also, you can make use of some functions like init that is fired once the SDK finished loading. Keep in mind that you can still call your SDK instance if you don't use the registerApp function as well.
 
-```
+``` js
 // Create a new SDK instance on a canvas with html id 'v3'
 formideSDK = new FormideSDK(document.getElementById("v3"));
 
@@ -62,7 +62,7 @@ formideSDK.registerApp(new myApp());
 ### Require
 Require an external file using an HTTP get request. Returns the contents of the file. Useful for loading local file assets or config files.
 
-```
+``` js
 // using require in combination with adding a model
 formideSDK.require('./assets/cube40mm.stl', function(contents) {
     formideSDK.addModel({ contents: contents }, function(response, err) {

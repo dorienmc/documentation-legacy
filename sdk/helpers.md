@@ -6,7 +6,7 @@ To make life in the 3D world a bit easier for both developers and end users, we'
 ### Set bed height
 Set the height (thickness) of the virtual printbed.
 
-```
+``` js
 // set height without animation
 formideSDK.setBedHeight({
     height: 2
@@ -27,7 +27,7 @@ formideSDK.setBedHeight({
 ### Set canvas size
 Set the size of the 3D environment in your HTML structure. Automatically scales camera viewport.
 
-```
+``` js
 formideSDK.setCanvasSize({
     width: 500,
     height: 300
@@ -40,7 +40,7 @@ formideSDK.setCanvasSize({
 ### Set grid size
 Set the size of the grid shown on the virtual printbed. The size is in mm per square.
 
-```
+``` js
 formideSDK.setGridSize({ size: 20 }, function(response) {
     // do something in callback
 });
@@ -50,7 +50,7 @@ formideSDK.setGridSize({ size: 20 }, function(response) {
 ### Set printer size
 Set the size of the virtual print bed and build volume.
 
-```
+``` js
 // without animation
 formideSDK.setPrintSize({
     x: 300,
@@ -75,7 +75,7 @@ formideSDK.setPrintSize({
 ### Transform rotate mode
 Set the transform mode to rotation (rotate a model with on screen arrows).
 
-```
+``` js
 formideSDK.setTransformRotate(function(response, err) {
     // do something
 });
@@ -85,7 +85,7 @@ formideSDK.setTransformRotate(function(response, err) {
 ### Transform scale mode
 Set the transform mode to sacle (scale a model with on screen arrows).
 
-```
+``` js
 formideSDK.setTransformScale(function(response, err) {
     // do something
 });
@@ -95,7 +95,7 @@ formideSDK.setTransformScale(function(response, err) {
 ### Transform translate mode
 Set the transform mode to translation (move a model with on screen arrows).
 
-```
+``` js
 formideSDK.setTransformTranslate(function(response, err) {
     // do something
 });
@@ -105,7 +105,7 @@ formideSDK.setTransformTranslate(function(response, err) {
 ### Virtual printbed
 Show a vritual printbed to help the user visualize a model in their 3D printer. Listens to setPrinterSize.
 
-```
+``` js
 formideSDK.showPrintBed({ show: true, type: 'xyz' }, function(response, err) {
     // do something with response (OK)
 });
@@ -142,7 +142,7 @@ formideSDK.showPrintBed({ show: true, type: 'xyz' }, function(response, err) {
 ### Virtual build volume
 Show a virtual bounding box to indicate the build volume of a 3D printer. Listens to setPrinterSize.
 
-```
+``` js
 formideSDK.showPrintSize({
     show: true,
     type: 'xyz'
@@ -182,7 +182,7 @@ formideSDK.showPrintSize({
 ### Show wireframe
 Show a wireframe around all models that are currently in the 3D environment.
 
-```
+``` js
 // show wireframe
 formideSDK.showWireframe({
     show: true
@@ -202,7 +202,7 @@ formideSDK.showWireframe({
 ### Snap to grid
 Snap a model to a virtual grid when moving, rotating and scaling. This allows for easier translations for beginning users.
 
-```
+``` js
 // snap to relatively small grid
 formideSDK.snapToGrid({
     snap: true,

@@ -5,7 +5,7 @@
 ### Add box
 Add a box shape to the 3D environment. X, y and z are the box sizes in millimeters.
 
-```
+``` js
 formideSDK.addBox({ x: 10, y: 10, z: 10 }, function(response, err) {
     // do something with response
 });
@@ -15,7 +15,7 @@ formideSDK.addBox({ x: 10, y: 10, z: 10 }, function(response, err) {
 ### Add cylinder
 Add a cylinder shape to the 3D environment. RadiusTop, radusBottom and height are in millimiters and segments defines the smoothness of the cylinder.
 
-```
+``` js
 formideSDK.addCylinder({ radiusTop: 10, radiusBottom: 5, segments: 20, height: 20 }, function(response, err) {
     // do something with response
 });
@@ -25,7 +25,7 @@ formideSDK.addCylinder({ radiusTop: 10, radiusBottom: 5, segments: 20, height: 2
 ### Add model
 There are 3 ways to add a new model to the 3D environment: by URL, by file contents and by a THREE.Geometry object.
 
-```
+``` js
 // By URL
 formideSDK.addModel({
     url: './assets/cube.stl'
@@ -53,7 +53,7 @@ formideSDK.addModel({
 ### Add sphere
 Add a sphere shape to the 3D environment. The radius is in millimiters and segments defines the smoothness of the sphere.
 
-```
+``` js
 formideSDK.addSphere({ radius: 10, segments: 20 }, function(response, err) {
     // do something with response
 });
@@ -63,7 +63,7 @@ formideSDK.addSphere({ radius: 10, segments: 20 }, function(response, err) {
 ### Allow rotation
 Allow a model to be rotated in the 3D environment by the end user.
 
-```
+``` js
 formideSDK.allowModelRotate({
     modelId: 0,
     allow: true
@@ -76,7 +76,7 @@ formideSDK.allowModelRotate({
 ### Allow scaling
 Allow a model to be scaled in the 3D environment by the end user.
 
-```
+``` js
 formideSDK.allowModelScale({
     modelId: 0,
     allow: true
@@ -89,7 +89,7 @@ formideSDK.allowModelScale({
 ### Allow translation
 Allow a model to be moved in the 3D environment by the end user.
 
-```
+``` js
 formideSDK.allowModelTranslate({
     modelId: 0,
     allow: true
@@ -102,7 +102,7 @@ formideSDK.allowModelTranslate({
 ### Autofit model
 Autofit the model on the printbed. Useful to make models printable.
 
-```
+``` js
 formideSDK.autofitModel({ modelId: model.modelId }, function(response, err) {
     // do something
 });
@@ -112,7 +112,7 @@ formideSDK.autofitModel({ modelId: model.modelId }, function(response, err) {
 ### Copy model
 Copy a model (duplicate). Automatically puts the copy in the center of the printbed.
 
-```
+``` js
 formideSDK.copyModel({ modelId: 0 }, function(response, err) {
     // do stuff
 });
@@ -131,7 +131,7 @@ formideSDK.getSelectedModel(function(model, err) {
 ### Get transformations
 Get the transformations of a model (like position, size, rotation and color)
 
-```
+``` js
 formideSDK.getModelTransformations({
     modelId: response.modelId
 }, function(response, err) {
@@ -143,7 +143,7 @@ formideSDK.getModelTransformations({
 ### Get models
 With this function, you can get an array of all models that have been added to the 3D environment.
 
-```
+``` js
 formideSDK.getModels(function(response, err) {
     // do something with the models
 });
@@ -153,7 +153,7 @@ formideSDK.getModels(function(response, err) {
 ### Get model
 Get information about single model from the SDK.
 
-```
+``` js
 formideSDK.getModel({
     modelId: 0,
 }, function(response, err) {
@@ -165,7 +165,7 @@ formideSDK.getModel({
 ### Get selected model
 Get the model object of the currently selected model in the 3D environment.
 
-```
+``` js
 formideSDK.getSelectedModel(function(response, err) {
     // do something with selected model object (response)
 });
@@ -175,7 +175,7 @@ formideSDK.getSelectedModel(function(response, err) {
 ### Put model on bed
 Put a model on the printbed when it's floating in the air. Useful to make models printable.
 
-```
+``` js
 formideSDK.putModelOnBed({ modelId: model.modelId}, function(response, err) {
     // do something
 });
@@ -185,7 +185,7 @@ formideSDK.putModelOnBed({ modelId: model.modelId}, function(response, err) {
 ### Recenter model
 Move a model to the center of the printbed. For now only works with virtual printbed of type xyz.
 
-```
+``` js
 formideSDK.recenterModel({
     modelId: 0
 }, function(response, err) {
@@ -197,7 +197,7 @@ formideSDK.recenterModel({
 ### Remove all models
 Remove all models from the 3D environment.
 
-```
+``` js
 formideSDK.removeModel(function(response, err) {
     // do something after removing all models
 });
@@ -207,7 +207,7 @@ formideSDK.removeModel(function(response, err) {
 ### Remove model
 Remove a single model from the 3D environment.
 
-```
+``` js
 formideSDK.removeModel({
     modelId: 0
 }, function(response, err) {
@@ -219,7 +219,7 @@ formideSDK.removeModel({
 ### Set color
 Set the color of a model to any RGB value.
 
-```
+``` js
 formideSDK.setModelColor({
     modelId: 0,
     r: 200,
@@ -234,7 +234,7 @@ formideSDK.setModelColor({
 ### Set position
 Set the absolute position of a model. The x, y and z parameters are in millimeters from the 0,0,0 point (corner of the print bed).
 
-```
+``` js
 // move to position
 formideSDK.setModelPosition({
     modelId: 0,
@@ -261,7 +261,7 @@ formideSDK.setModelPosition({
 ### Set rotation
 Set the rotation of a model. The x, y and z parameters are in radiants (so Math.PI is half a circle).
 
-```
+``` js
 // move to position
 formideSDK.setModelRotation({
     modelId: 0,
@@ -288,7 +288,7 @@ formideSDK.setModelRotation({
 ### Set scale
 Set the absolute size of a model. The x, y and z parameters are in millimeters.
 
-```
+``` js
 // move to position
 formideSDK.setModelScale({
     modelId: 0,
