@@ -1,6 +1,24 @@
 ---
 ## Changelog
-The JavaScript SDK is maintained actively and will change with each version. Use this page to keep track of changed that might affect your app when you switch to a newer version. Version numbers might not be incremental since we don't push very minor changes all the time.
+The JavaScript SDK is maintained actively and will change with each version. Use this page to keep track of changed that might affect your app when you switch to a newer version. Version numbers might not be incremental since we don't push very minor changes all the time to the SDK cdn.
+
+---
+### v0.8.86 (Nov 8, 2015)
+* Cleanup and 3rd party sdk release.
+
+---
+### v0.8.84 (Oct 11, 2015)
+* Updates for Katana slice engine to handle transformations for models during slicing.
+* Fix axis to reflect mathematical axis model.
+* Added auto deploy to CDN for 3rd party developer releases.
+* Fixes for changed endpoints in Formide API.
+
+---
+### v0.8.68 (Sep 25, 2015)
+* Moved to event based rendering in favor of fps based rendering. Results in huge performace increases!
+* Added loading spinner when loading models.
+* Fixes for AngularJS directive.
+* Small fixes for scrolling and zooming.
 
 ---
 ### v0.8.60 (Sep 9, 2015)

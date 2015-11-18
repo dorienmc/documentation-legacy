@@ -3,7 +3,7 @@ Our javascript SDK allows you to work with 3D printing and 3D modeling right in 
 
 ---
 ### SDK instance
-To use the 3D SDK, just include http://downloads.formide.com/sdk/sdk-0.8.18.min.js as source script in your application.
+To use the 3D SDK, just include http://downloads.formide.com/sdk/sdk-0.8.86.min.js as source script in your application.
 
 The first thing you have to do is create a new instance of the SDK. You can do this using the following piece of code:
 
@@ -42,4 +42,4 @@ Check the documentation on how to create apps for more details on what an app sh
 ### Updates
 Every now and then we push updates to the SDK. We don't have a automatic 'latest' file online because this can break your app when we update that. We advice to load a specific version and keep an eye on [this page](/#/docs/sdk/changelog) to see if we updated to a new version so you can update your app.
 
-The latest version is 0.8.60 and can be found on http://downloads.formide.com/sdk/sdk-0.8.60.min.js.
+The latest version is 0.8.86 and can be found on http://downloads.formide.com/sdk/sdk-0.8.86.min.js.
