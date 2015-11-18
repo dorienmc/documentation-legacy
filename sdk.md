@@ -30,7 +30,7 @@ This creates a new instance of the 3D SDK in a DOM element with id 'v3'. The typ
     <body>
         <canvas id="v3"></canvas>
         
-        <script src="http://downloads.formide.com/sdk/sdk-0.8.60.min.js"></script>
+        <script src="http://downloads.formide.com/sdk/sdk-0.8.86.min.js"></script>
         <script src="app.js"></script>
     </body>
 </html>
