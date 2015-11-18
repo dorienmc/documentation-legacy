@@ -6,10 +6,10 @@ A Skirt is an outline the surrounds your part but does not touch the part.  The 
 
 > For ABS parts, a 'tall skirt' (ooze shield) can be constructed, as high as your model if desired, to thermally insulate the main model from any drafts.
 
-![Skirt](https://github.com/PRINTR3D/documentation/blob/master/katana/img/BSkirt.JPG)
+![Skirt](https://raw.githubusercontent.com/PRINTR3D/documentation/master/katana/img/Skirt.JPG)
 
 ---
 ## Multiple volumes
 In case the model has multiple volumes the skirt can either printed around all of them (it is merged in case they are close enough to each other) in case of non-sequential printing, or each volume has its own skirt which is printed just before the corresponding volume is printed. Below an example of a merged skirt.
 
-![Merged skirt](https://github.com/PRINTR3D/documentation/blob/master/katana/img/BSkirtMerged.JPG)
+![Merged skirt](https://raw.githubusercontent.com/PRINTR3D/documentation/master/katana/img/SkirtMerged.JPG)

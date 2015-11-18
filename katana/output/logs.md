@@ -85,8 +85,6 @@ It also shows that the requestHandler returns error code 602 (Model too large fo
 ### Example 3: Successful request
 In this case Katana has sliced the model successfully (code 200) which took a total time of 611 ms. It expects that printing will take 8773 seconds and 8773 cm(?) of material.
 
->Note: estimated time and amount seem to be incorrect
-
 ```
 {
     "status":200,

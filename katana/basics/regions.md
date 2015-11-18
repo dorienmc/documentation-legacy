@@ -8,7 +8,7 @@ Regions can for example be applied when printing a statue, the pillar can be pri
 ## Region parameters
 Each region has the following settings, which apply to all the layers in the region. Below is an overview of all the settings a region contains, more settings will be added in the future.
 
-- _**_name**: Name of the region (eg. bottom, top, default, URV0R1*), the name is set by Katana._
+- _**name**: Name of the region (eg. bottom, top, default, URV0R1*), the name is set by Katana._
 - **id**: ID of the regionset' the region belongs to.
 - **startHeight**: Height at which the region starts.
 - **endHeight**: Height at which the region ends, start of the next region by default.
@@ -132,7 +132,7 @@ The following parameters will be used:
 
 Note: Volume 0 denotes the first 3d model.
 
-![Example 1](https://github.com/PRINTR3D/documentation/blob/master/katana/img/BRegions_example1.png)
+![Example 1](https://raw.githubusercontent.com/PRINTR3D/documentation/master/katana/img/Regions_example1.png)
 
 ---
 ## 2. With user specified regions
@@ -160,14 +160,14 @@ Below is the code used for the regions, all regions have a layer height of 100 a
   ],
 ```
 
-![User regions, set 1 in blue, set 2 in red](https://github.com/PRINTR3D/documentation/blob/master/katana/img/BRegions_example2A.png)
+![User regions, set 1 in blue, set 2 in red](https://raw.githubusercontent.com/PRINTR3D/documentation/master/katana/img/Regions_example2A.png)
 
 Set 1 in blue, set 2 in red. Note that region 2 in volume 0 is smaller than region 2 in volume 1, it ends earlier because the top of volume 0 starts earlier.
 
 ### Example 2B
 This example shows what happens if a region is given an endheight, it shows volumes with multiple default regions and also what happens if a user specified region has a non-integer number (eg. 4.2) of layers. To show this we create 3 volumes each with 1 user specified region(set), all regions start at 400 and have a layer height of 100. The region in volume 0 has no specified end height, and the regions in volume 1 and 2 end at respectively 600 and 550.
 
-![User region without endheight, with correct endheight and updated endheight](https://github.com/PRINTR3D/documentation/blob/master/katana/img/BRegion_example2B.png)
+![User region without endheight, with correct endheight and updated endheight](https://raw.githubusercontent.com/PRINTR3D/documentation/master/katana/img/Region_example2B.png)
 
 As all user specified regions start at 400 but the bottom ends at 200 all models are given a default region between the bottom and the user specified region. In volume 0 this user region has no specified end height and therefore stops when the top region begins. In volume 1 an end height of 600 is specified by the user, which results into another default region from 600 - 800. In the last volume the end height was set to 550, but the region was given layer heights of 100 (which results in 1.5 layers), hence the end height was adapted to 500.
 Note that if we would have chosen an end height below 500 the user specified region would not be created at all (as it has less than 1 layer).
