@@ -5,7 +5,7 @@
 ### Add box
 Add a box shape to the 3D environment. X, y and z are the box sizes in millimeters.
 
-```
+``` js
 formideSDK.addBox({ x: 10, y: 10, z: 10 }, function(response, err) {
     // do something with response
 });
