@@ -23,7 +23,7 @@ In Katana each region can have its own infill density, which ranges between 0 an
 
 In the picture below each layer of the pyramid has a triangle infill, but the density/amount is different (note: each layer of the piramid actually corresponds with a region). The top and bottom part have the highest density (approx. 70%), while the second (50%) and third (30%) have less infill.
 
-![infill density](https://developers.formide.com/#/docs/katana/img/Traingle_Piramid.JPG)
+![infill density](https://github.com/PRINTR3D/documentation/blob/master/katana/img/BTraingle_Piramid.JPG)
 
 ---
 ### Infill patterns
@@ -31,5 +31,5 @@ In Katana each region can have its own infill pattern, currently the following p
 
 The pictures below show various infill densities for the patterns _Triangle_ and _HoneyComb_ (from left to right, 80%, 60%, 40% and %20).
 
-![triangle infill](https://developers.formide.com/#/docs/katana/img/Triangle_Infill.JPG)
-![honeycomb infill](https://developers.formide.com/#/docs/katana/img/HoneyComb_Infill.JPG)
+![triangle infill](https://github.com/PRINTR3D/documentation/blob/master/katana/img/BTriangle_Infill.JPG)
+![honeycomb infill](https://github.com/PRINTR3D/documentation/blob/master/katana/img/BHoneyComb_Infill.JPG)
