@@ -1,6 +1,6 @@
 ---
 ## Changelog
-The JavaScript SDK is maintained actively and will change with each version. Use this page to keep track of changed that might affect your app when you switch to a newer version. Version numbers might not be incremental since we don't push very minor changes all the time.
+The JavaScript SDK is maintained actively and will change with each version. Use this page to keep track of changed that might affect your app when you switch to a newer version. Version numbers might not be incremental since we don't push very minor changes all the time to the SDK cdn.
 
 ---
 ### v0.8.86 (Nov 8, 2015)
