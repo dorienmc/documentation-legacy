@@ -1,3 +1,4 @@
+---
 ## Error response
 This is the list of error codes and responses returned by Katana in the Slice Logs.
 
@@ -41,7 +42,7 @@ And all others have the 500 (internal server error) code. We could catch a segme
 | 604 | Bucket-out directory not found |  
 | 605 | Wall thickness not compatible with nozzle size |
 
-
+---
 ## Internal error codes
 | Katana output | Error code | Description |
 | :-----------: | :--------: | ------------|
