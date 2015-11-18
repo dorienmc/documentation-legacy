@@ -7,4 +7,4 @@ Support can be added in three ways, by toggling the following support parameters
 - `supportModel`: Add support inside the model (but not between the bed and the model)
 - `supportEverywhere`: Add support both between the bed and the model and inside the model (overrides the other parameters when set to true).
 
-![Support](https://github.com/PRINTR3D/documentation/blob/master/katana/img/BSupport.JPG)
+![Support](https://raw.githubusercontent.com/PRINTR3D/documentation/master/katana/img/Support.JPG)

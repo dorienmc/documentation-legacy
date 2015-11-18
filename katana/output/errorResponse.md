@@ -1,8 +1,6 @@
+---
 ## Error response
 This is the list of error codes and responses returned by Katana in the Slice Logs.
-
-> Note: I think all malformed request and missing parameters errors should have code 400 (Bad request)
-And all others have the 500 (internal server error) code. We could catch a segmentation fault with the 520 error.
 
 | Error code | Description           |
 | :-------------: |-------------|

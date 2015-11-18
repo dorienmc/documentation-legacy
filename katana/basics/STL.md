@@ -2,7 +2,7 @@
 ## STL
 An STL (Stereo Lithography) file is a triangular representation of a 3-dimensional surface geometry. The surface is broken down into a series of small triangles (facets or faces).  Each facet is described by a perpendicular direction (the normal) and three points representing the vertices (corners) of the triangle.
 
-![Facet, vertex and normal](https://github.com/PRINTR3D/documentation/blob/master/katana/img/BFacet_vertex_normal.png)
+![Facet, vertex and normal](https://raw.githubusercontent.com/PRINTR3D/documentation/master/katana/img/Facet_vertex_normal.png)
 
 This data is used by the slicing algorithm in katana to determine the cross sections (2d layers) of the 3-dimensional shape to be printed by a 3d printer.
 
