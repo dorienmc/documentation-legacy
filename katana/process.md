@@ -6,32 +6,35 @@ The slicing process can be split up in 5 phases:
 1. Parsing input data
 2. Load and Optimize input models
 3. Slicing
-4. Process slice data
+4. Process slice data (when generating Gcode)
 5. Generate Output
-
-> Phase 4 is skipped in SVG mode
 
 ---
 ## Parsing input data
-Before loading the requested models all request parameters in the slice profile are validated. If no errors are found the slice request is processed.
+Before loading the requested models all request parameters in the slice profile are validated.
+If no errors are found the slice request is processed.
 
 ---
 ## Load and Optimize input models
-The Load and Optimize phase consists of the steps _Loading Volumes_, _Transforming input volumes_ and _Create Regions_. This phase also validates in the _volumes_ actually fit on the printbed.
+The Load and Optimize phase consists of the steps _Loading Volumes_, _Transforming input volumes_ and _Create Regions_.
+This phase also validates in the _volumes_ actually fit on the printer bed.
 
 > In Katana each input model is called a _volume_ and all input volumes together are denoted by _model_.
 
 ---
 ## Slicing
-The slicing phase consists of the steps _Create Slices_  and _Create Layer Parts_. It determines the cross sections (2d layers) of the 3-dimensional shape(s). The height of each layer depends on the parameters given in the slice request.
+The slicing phase consists of the steps _Create Slices_ and _Create Layer Parts_. It determines the cross sections
+(2D layers) of the 3D shape(s). The height of each layer depends on the parameters given in the slice request.
 
 In SVG mode no information on layer height is returned, hence it is assumed that all the layers have the same height.
 
-In gcode mode layer height is determined by regions. In this mode a model has a bottom, top and default region by default. For more information see the [region](https://developers.formide.com/#/docs/katana/basics/regions) section.
+In gcode mode layer height is determined by regions. In this mode a model has a bottom, top and default region by default.
+For more information see the [region](https://developers.formide.com/#/docs/katana/basics/regions) section.
 
 ---
 ## Process slice data
-The process slice data part handles all the things that should be done between slicing layers and adding them to the gcode, if the G-code mode is chosen.
+The process slice data part handles all the things that should be done between slicing layers and adding them to the gcode,
+if the gcode mode is chosen.
 
 Process:
 * **Generate support**: Calculated where support is needed, if required.
@@ -46,6 +49,7 @@ Process:
 
 ---
 ## Generate Output
-There are currently two possible outputs; SVG and G-code. SVG files are created per layer and gcode files
+There are currently two possible outputs; SVG and gcode. SVG files are created per layer and gcode files
 per request.
+
 After the output files are created Katana is done and returns the output to FORMIDE. For more information see the [output](https://developers.formide.com/#/docs/katana/output/) section.
