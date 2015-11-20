@@ -123,34 +123,8 @@
 					{
 						"title": "Connect printer",
 						"link": "connect-printer"
-					},
-					{
-						"title": "Update client device",
-						"link": "update-device"
 					}
 				]
-			},
-			{
-				"title": "Apps",
-				"link": "apps",
-				"children": [
-					{
-						"title": "App Manager",
-						"link": "app-manager"
-					},
-					{
-						"title": "Create app",
-						"link": "create-app"
-					},
-					{
-						"title": "Publishing",
-						"link": "publishing"
-					}
-				]
-			},
-			{
-				"title": "Issues",
-				"link": "issues"
 			}
 		]
 	},
@@ -171,6 +145,10 @@
 						"link": "npm"
 					}
 				]
+			},
+			{
+				"title": "Update",
+				"link": "update"
 			},
 			{
 				"title": "First Login",
@@ -318,10 +296,6 @@
 						]
 					}
 				]
-			},
-			{
-				"title": "Issues",
-				"link": "issues"
 			}
 		]
 	},
@@ -363,6 +337,56 @@
 		"title": "Katana",
 		"link": "katana",
 		"children": [
+			{
+				"title":"Basics",
+				"link": "basics",
+				"children":[
+					{
+						"title":"Brim",
+						"link":"brim"
+					},
+					{
+						"title":"Infill",
+						"link":"infill"
+					},
+					{
+						"title":"Ooze Shield",
+						"link":"oozeshield"
+					},
+					{
+						"title":"Raft",
+						"link":"raft"
+					},
+					{
+						"title":"Regions",
+						"link":"regions"
+					},
+					{
+						"title":"Skin",
+						"link":"skin"
+					},
+					{
+						"title":"Skirt",
+						"link":"skirt"
+					},
+					{
+						"title":"STL",
+						"link":"STL"
+					},
+					{
+						"title":"Support",
+						"link":"support"
+					},
+					{
+						"title":"Wipe Tower",
+						"link":"wipetower"
+					}
+				]
+			},
+			{
+				"title": "Process",
+				"link": "process"
+			},
 			{
 				"title": "Input",
 				"link": "input",
@@ -458,84 +482,6 @@
 			{
 				"title": "Changelog",
 				"link": "changelog"
-			},
-			{
-				"title": "Process",
-				"link": "process"
-			},
-			{
-				"title":"Basics",
-				"link": "basics",
-				"children":[
-				{
-					"title":"Brim",
-					"link":"brim"
-				},
-				{
-					"title":"Infill",
-					"link":"infill"
-				},
-				{
-					"title":"Ooze Shield",
-					"link":"oozeshield"
-				},
-				{
-					"title":"Raft",
-					"link":"raft"
-				},{
-					"title":"Regions",
-					"link":"regions"
-				},{
-					"title":"Skin",
-					"link":"skin"
-				},{
-					"title":"Skirt",
-					"link":"skirt"
-				},{
-					"title":"STL",
-					"link":"STL"
-				},{
-					"title":"Support",
-					"link":"support"
-				},{
-					"title":"Wipe Tower",
-					"link":"wipetower"
-				}
-				]
-			},
-			{
-				"title": "Issues",
-				"link": "issues"
-			}
-		]
-	},
-	{
-		"title": "Design",
-		"link": "design",
-		"children": [
-			{
-				"title": "Logos",
-				"link": "logos"
-			},
-			{
-				"title": "Colors",
-				"link": "colors"
-			},
-			{
-				"title": "Buttons",
-				"link": "buttons"
-			},
-			{
-				"title": "Forms",
-				"link": "forms"
-			},
-			{
-				"title": "Tables",
-				"link": "tables"
-			},
-			{
-				"title": "Typography",
-				"link": "typography"
 			}
 		]
 	}
