@@ -1,12 +1,16 @@
 ---
 ## Bottom
+
+Bottom is one of the default regions that Katana has.
+You can define parameters like a different layerHeight for only the bottom part of your model.
+
 | Name | Type | Description | Range | Default |
 | ----- | -----| ------------| ------| --------|
-| numberOfLayers | <code>int</code>| Number of layers in the bottom | >0 | 2 |
-| layerHeight | <code>float</code>| Height of each bottom layer | >=0 | 250 |
-| speed | <code>int</code>| Printing speed in the bottom layers | >0 | 30 |
-| solid | <code>bool </code>| Infill is solid when set to true, equal to Infill.amount when false | TRUE |
-| layerDelay | <code>int</code>| Delay in seconds (after printing) before printing next layer | >=0 | 0 |
-| firstLayersWidthFactor | <code>int</code>| Increase of extrusion width for first layers | >=10 | 120 |
+| numberOfLayers | `int` | Number of layers in the bottom | >0 | 2 |
+| layerHeight | `float` | Height of each bottom layer | >=0 | 250 |
+| speed | `int` | Printing speed in the bottom layers | >0 | 30 |
+| solid | `bool` | Infill is solid when set to true, equal to Infill.amount when false | TRUE |
+| layerDelay | `int` | Delay in seconds (after printing) before printing next layer | >=0 | 0 |
+| firstLayersWidthFactor | `int` | Increase of extrusion width for first layers | >=10 | 120 |
 
-> The default layer height (from Layers) is used when the layer height is set to 0.
+> bottom.layerHeight will use layers.layerHeight when 0 is given as value.
