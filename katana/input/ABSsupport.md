@@ -4,7 +4,7 @@ Printing with ABS might give warped corners at the bottom of the model, to preve
 Katana automatically generates these ABS corners, so there is no need to model these or add them manually before slicing.
 
 | Name | Type | Description | Range | Default |
-| ----- | -----| ------------| ------| --------|
+| ----- | ----- | ------------ | ------ | -------- |
 | activationAngle | `int` | Give all corners sharper than this ABS support (in degrees) | [0,360) | 90 |
 | radius | `int`| Radius of support circles in micron | >0 | 1000 |
 | overlap | `int` | Percentage of the radius that overlaps with the model | [0,100] | 100 |
