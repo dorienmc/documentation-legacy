@@ -10,6 +10,6 @@ In the gcode settings you can define the output of Katana. Start and end gcodes 
 |_customGcode_| `string array` | Custom gcode to add periodically | - | empty |
 |_repeatEvery_ | `int` | Customgcode is repeated every _repeatEvery_ lines | >=0 | 0 |
 |_changeLayerGcode_| `string array` | Gcode to add between layers | - | empty |
-| gcodeFlavour | `string` | Specific gcode flavour | See below | "GCODE\_FLAVOR\_REPRAP" |
+| gcodeFlavour | `string` | Specific gcode flavour | See below | "GCODE_FLAVOR_REPRAP" |
 
-> Gcode flavours: {"GCODE\_FLAVOR\_REPRAP", "GCODE\_FLAVOR\_ULTIGCODE", "GCODE\_FLAVOR\_MAKERBOT", "GCODE\_FLAVOR\_BFB", "GCODE\_FLAVOR\_MACH3", "GCODE\_FLAVOR\_REPRAP\_VOLUMATRIC", "GCODE\_FLAVOR\_LINUXCNC"}
+> Gcode flavours are: GCODE_FLAVOR_REPRAP, GCODE_FLAVOR_ULTIGCODE, GCODE_FLAVOR_MAKERBOT, GCODE_FLAVOR_BFB, GCODE_FLAVOR_MACH3, GCODE_FLAVOR_REPRAP_VOLUMATRIC, GCODE_FLAVOR_LINUXCNC
