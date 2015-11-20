@@ -22,16 +22,19 @@ Unique to Katana are the `regionSettings`. These allow you to change some parame
 > Note: If a non-mandotory parameter is not specified by the user its default value is
 used (these are given in among other the layers and movement settings).
 
+
 > Note: There can be different regions with the same ID. For example: ID 1 Region
 (starting at 3000 microns), ID 1 Region (starting at 6000 microns). This means, if a model
 has Settings 1, new settings will be applied after printing 3000 microns, and then, new
 settings will be applied again after printing 6000 microns. A set of regions can be
 applied to multiple models (called Volumes in Katana).
 
+
 > Note: When no endheight is specified the region will end as soon as a new region
 (either specified by the user, or the top region) starts. When an end height is specified
 but the next specified region does not start yet default values are used for the layers
 in between.
+
 
 > Note: A region always has an integer number of layers. I.e. if a region starts at 1000
 microns and ends at 2001 microns and has layers of height 100 microns, then this region
