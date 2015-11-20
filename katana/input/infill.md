@@ -9,5 +9,4 @@ The infill settings define the strength and rigidity of the final model. More in
 | overlap | `int` | | Amount of overlap with the walls in percentage | [0,100] | 90 |
 | pattern | `string` | Pattern type for infilling | see below | "INFILL_AUTOMATIC" |
 
-
 > Available infill patterns are: INFILL_AUTOMATIC, INFILL_GRID, INFILL_LINES, INFILL_CONCENTRIC, INFILL_CUSTOM
