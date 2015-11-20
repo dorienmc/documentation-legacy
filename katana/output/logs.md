@@ -8,16 +8,17 @@ This output is created after slicing and creating output files, hence if Katana 
 ### Structure
 ```
 {
-  "status": katana error response, 200 in case of succes,
-  "data": {
-    "mode": either gcode or svg,
-    "hash": model hash,
-    "responseId": id of the request,
-    "version": version of the slice request that is used,
-    "amount": estimated amount of material that is needed,
-    "time": estimated print time.
-    "totalTime": time needed by Katana for slicing
-    "steps": [ list of steps ]
+    "status": katana error response, 200 in case of succes,
+    "data": {
+        "mode": either gcode or svg,
+        "hash": model hash,
+        "responseId": id of the request,
+        "version": version of the slice request that is used,
+        "amount": estimated amount of material that is needed,
+        "time": estimated print time.
+        "totalTime": time needed by Katana for slicing
+        "steps": [ list of steps ]
+    }
 }
 ```
 
@@ -25,13 +26,11 @@ This output is created after slicing and creating output files, hence if Katana 
 ### Step
 ```
 {
-  "stepName": Name of the step,
-  "stepTime": Time needed to complete the step
-    (either successfully or not) in ms,
-  "message": Messages given by Katana, eg start time
-    or number of layers,
-  "success": True in case of succes, false otherwise,
-  "code": Error code, 0 in case of success,
+    "stepName": Name of the step,
+    "stepTime": Time needed to complete the step (either successfully or not) in ms,
+    "message": Messages given by Katana, eg start time or number of layers,
+    "success": True in case of succes, false otherwise,
+    "code": Error code, 0 in case of success,
 }
 ```
 
@@ -48,36 +47,35 @@ It also shows that the requestHandler returns error code 602 (Model too large fo
 
 ```
 {
-  "status":602,
-  "data":{
-    "msg":"Model too large for printbed",
-    "responseId":"gfbgjrywe",
-    "version":"1.0.5",
-    "totalTime":34,
-    "steps":[{
-      "stepName":"Parse slice request",
-      "stepTime":1,
-      "message":"Started at 16:51:10,
-        Finished parsing",
-      "success":true,
-      "code":0
-    },{
-      "stepName":"Loading volumes",
-      "stepTime":31,
-      "message":"Started at 16:51:10, Loaded 1 volumes.",
-      "success":true,"code":0
-    },{
-      "stepName":"Transforming input volumes",
-      "stepTime":0,
-      "message":"Started at 16:51:10, Volume 0 does not
-        fit on the printbed , Size printbed: (0,0,0) by
-        (400,400,170000),
-        Size volume 0: (-19799,-19800,0) by
-        (20200,20199,40000)",
-      "success":false,
-      "code":-4
-    }]
-  }
+    "status":602,
+    "data":{
+        "msg":"Model too large for printbed",
+        "responseId":"gfbgjrywe",
+        "version":"1.0.5",
+        "totalTime":34,
+        "steps":[
+            {
+                "stepName":"Parse slice request",
+                "stepTime":1,
+                "message":"Started at 16:51:10, Finished parsing",
+                "success":true,
+                "code":0
+            },
+            {
+                "stepName":"Loading volumes",
+                "stepTime":31,
+                "message":"Started at 16:51:10, Loaded 1 volumes.",
+                "success":true,"code":0
+            },
+            {
+                "stepName":"Transforming input volumes",
+                "stepTime":0,
+                "message":"Started at 16:51:10, Volume 0 does not fit on the printbed , Size printbed: (0,0,0) by (400,400,170000), Size volum 0: (-19799,-19800,0) by (20200,20199,40000)",
+                "success":false,
+                "code":-4
+            }
+        ]
+    }
 }
 ```
 
@@ -90,64 +88,59 @@ In this case Katana has sliced the model successfully (code 200) which took a to
     "status":200,
     "data":{
         "mode":"gcode",
-        "hash":"GqA9WfFY3KXDk6H03XO96U4SWq8UMu4oqan28c2f
-          HBpHcTXAJR",
+        "hash":"GqA9WfFY3KXDk6H03XO96U4SWq8UMu4oqan28c2fHBpHcTXAJR",
         "responseId":"gfbgjrywe",
         "version":"1.0.5",
         "amount":8773,
         "time":8773,
         "totalTime":611,
-        "steps":[{
-            "stepName":"Parse slice request",
-            "stepTime":1,
-            "message":"Started at 16:50:22,
-              Finished parsing",
-            "success":true,
-            "code":0
-        },{
-            "stepName":"Loading volumes",
-            "stepTime":10,
-            "message":"Started at 16:50:22,
-            Loaded 1 volumes.",
-            "success":true,
-            "code":0
-        },{
-            "stepName":"Transforming input volumes",
-            "stepTime":34,
-            "message":"Started at 16:50:22,
-            Available volumes: 1",
-            "success":true,
-            "code":0
-        },{
-            "stepName":"Create Regions",
-            "stepTime":19,
-            "message":"Started at 16:50:22, Volume 0,
-              Region bottom: 4 layers,
-              Region default_copy_640_to_39200: 192 layers,
-              Region top: 4 layers,
-              Total layers: 200.",
-            "success":true,
-            "code":0
-        },
-...
-...
-...
-        {
-            "stepName":"Add layers to gcode",
-            "stepTime":213,
-            "message":"Started at 16:50:23,
-              Added skirt around volume 0,
-              Added brim around volume 0,
-              Added all layers to gcode, ",
-            "success":true,
-            "code":0
-        },{
-            "stepName":"Finish gcode",
-            "stepTime":42,
-            "message":"Started at 16:50:23, ",
-            "success":true,
-            "code":0
-        }]
+        "steps":[
+            {
+                "stepName": "Parse slice request",
+                "stepTime": 1,
+                "message": "Started at 16:50:22, Finished parsing",
+                "success": true,
+                "code": 0
+            },
+            {
+                "stepName": "Loading volumes",
+                "stepTime":1 0,
+                "message": "Started at 16:50:22, Loaded 1 volumes.",
+                "success": true,
+                "code": 0
+            },
+            {
+                "stepName":"Transforming input volumes",
+                "stepTime":34,
+                "message":"Started at 16:50:22, Available volumes: 1",
+                "success":true,
+                "code":0
+            },
+            {
+                "stepName":"Create Regions",
+                "stepTime":19,
+                "message":"Started at 16:50:22, Volume 0, Region bottom: 4 layers, Region default_copy_640_to_39200: 192 layers, Region top: 4 layers, Total layers: 200.",
+                "success":true,
+                "code":0
+            },
+            ...
+            ...
+            ...
+            {
+                "stepName":"Add layers to gcode",
+                "stepTime":213,
+                "message":"Started at 16:50:23, Added skirt around volume 0, Added brim around volume 0, Added all layers to gcode, ",
+                "success":true,
+                "code":0
+            },
+            {
+                "stepName":"Finish gcode",
+                "stepTime":42,
+                "message":"Started at 16:50:23, ",
+                "success":true,
+                "code":0
+            }
+        ]
     }
 }
 ```
