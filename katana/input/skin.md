@@ -1,5 +1,8 @@
 ---
 ## Skin
+
+Skin settings apply to the outside of the model. Depending on the shape of your 3D model, the skind will be thicker or thinner to prevent holes and assure structural integrity.
+
 | Name | Type | Description | Range | Default |
 | ----- | -----| ------------| ------| --------|
 | skin | `bool` | Toggle the use of skin | - | FALSE |
@@ -10,10 +13,10 @@
 | _downSkinCount_ | `int` | Number of layers applied to lower skin | >0 | 3 & Bottom.numberOfLayers |
 | _upSkinCount_ | `int` | Number of layers applied to upper skin | >0 | 3 & Top.numberOfLayers |
 
+> The input `skin` is used to denote if skin parameters are given, if not normal infill is used where skin would be used.
+
 > The parameters `infillOverlap`, `infillAmount`, `downskinSpeed` and `upskinSpeed` are not mandatory and parameters from the Infill and Movement are used when they are not given. The front end interface will use its own default values however.
 
-> The parameters `downskinCount` and `upskinCount` are used to determine when skin is needed. Skin is used to make the top and bottom of a model more sturdy (like walls are used to make the side of a model more sturdy). In this case the top of a model is defined as a part of the model above which there is air for at least a given amount of layers (`upskinCount`) and hence upskin is added. The same holds for a bottom, `downskinCount` and downskin. 
+> The parameters `downskinCount` and `upskinCount` are used to determine when skin is needed. Skin is used to make the top and bottom of a model more sturdy (like walls are used to make the side of a model more sturdy). In this case the top of a model is defined as a part of the model above which there is air for at least a given amount of layers (`upskinCount`) and hence upskin is added. The same holds for a bottom, `downskinCount` and downskin.
 Note that top and bottom 'parts' can occur anywhere in the model and not only in the bottom and top layers.
-If no input is given for `downskinCount` and `upskinCount` the number of layers in respectively Bottom and Top objects are used. 
-
-> The input `_skin` is used to denote if skin parameters are given, if not normal infill is used where skin would be used.
+If no input is given for `downskinCount` and `upskinCount` the number of layers in respectively Bottom and Top objects are used.
