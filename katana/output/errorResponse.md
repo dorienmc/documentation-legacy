@@ -38,18 +38,3 @@ This is the list of error codes and responses returned by Katana in the Slice Lo
 | 603 | Extruder not defined |  
 | 604 | Bucket-out directory not found |  
 | 605 | Wall thickness not compatible with nozzle size |
-
----
-## Internal error codes
-| Katana output | Error code | Description |
-| :-----------: | :--------: | ------------|
-| -2 | 500 | "Internal Error" |
-| -3 | 601 | "Bucket-in or model not found" |
-| -4 | 602 | "Model too large for printbed" |
-| -5 | 603 | "Extruder Not Defined" |
-| -6 | 604 | "Bucket Out directory not found" |
-| -7 | 501 | "Could not create folder for SVGs" |
-| -8 | 605 | "Wall thickness not compatible with nozzle size" |
-| -11| 602 | "Skirt, brim or raft does not fit on printbed" |
-
-> Note -9 and -10 were deprecated
