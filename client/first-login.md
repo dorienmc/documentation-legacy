@@ -16,6 +16,6 @@ Go to [myaccount.formide.com/#/settings/devices](https://myaccount.formide.com/#
 ### Local
 Go to the IP address that the FORMIDE client is running on and go to port 8080. You'll be presented with a login screen. You can use the credentials you filled in during the setup process.
 
-![formideos_login](https://raw.githubusercontent.com/PRINTR3D/documentation/master/client/img/formideos_login.png)
+![formideos_login](https://raw.githubusercontent.com/PRINTR3D/documentation/master/client/img/formide_client_login.png)
 
 > We're working on auto detecting an Element in your local network as well as setting up an access point to configure it for the first time.
