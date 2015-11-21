@@ -1,17 +1,15 @@
 [
 	{
 		"title": "Formide",
-		"link": "formide",
+		"link": "formide"
+	},
+	{
+		"title": "Guides",
+		"link": "guides",
 		"children": [
 			{
-				"title": "Guides",
-				"link": "guides",
-				"children": [
-					{
-						"title": "Connect printer",
-						"link": "connect-printer"
-					}
-				]
+				"title": "Connect printer",
+				"link": "connect-printer"
 			}
 		]
 	},
