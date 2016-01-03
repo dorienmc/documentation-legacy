@@ -1,8 +1,8 @@
 ### Getting started
-* [Build an app]()
-* [Integrate the API]()
-* [Run your own client]()
-* [Support your 3D printer]()
+* [Build an app](guides/build_an_app.md)
+* [Integrate the API](guides/api_integration.md)
+* [Run your own client](guides/run_own_client.md)
+* [Support your 3D printer](guides/printer_support.md)
 
 ### APIs
 * [Web API]()
