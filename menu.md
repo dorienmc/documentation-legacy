@@ -1,5 +1,5 @@
 ### Getting started
-* [Build an app](guides/build_an_app.md)
+* [Build an app](guides/build_app.md)
 * [Integrate the API](guides/api_integration.md)
 * [Run your own client](guides/run_own_client.md)
 * [Support your 3D printer](guides/printer_support.md)
