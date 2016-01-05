@@ -3,13 +3,16 @@
 ## Build your first app
 With the FORMIDE app platform, you can get your 3D content to end users and give them the ability to customize and adapt models before sending it directly to their 3D printer.
 
+---
 ### Step 1: Create a developer account
 Go be able to publish apps to the FORMIDE platform, you need to have a developer account. To create an account, log into FORMIDE.com and go to settings -> account. Here you can click the 'request developer account' button to enable developer mode on your account. After a short while, you will receive an email confirming your developer status and you're ready to publish your first app!
 
+---
 ### Step 2: Create a new app entry
 To create a new app entry, go do developers.formide.com and go to the 'my apps' page.
 Besides the app itself, we would like to have some information about your app before publishing it, like the name, the category, an awesome icon that represents what your app is and does and a small description that users can read before using the app. To get people to use your app, try to make all of these as attractive as possible!
 
+---
 ### Step 3: Build and upload your app
 To upload the actual app, you need to download our CLI (Command Line Interface) tools so you can push your app code from your computer to our platform. If you have node.js and NPM installed already, installing the FORMIDE CLI is really easy. Run the following command to install the CLI:
 
@@ -49,8 +52,10 @@ formide-cli publish
 
 This command will give some output depending if the upload succeeded or not (like information about missing mandatory files).
 
+---
 ### Step 4: Publish your app!
 It's time for the last step: publishing your app! Go to the 'my apps' page on developers.formide.com and select the app you created before. Now you will see an entry under versions, this is the app you just uploaded. To set a version as the active (published) version, just click the 'public' button behind the version number. Now your app is published on the platform, ready for everyone to use!
 
+---
 ### Step 5: Analyze and improve
 We gather some data of the users that are using your app, including number of usages, number of exported 3D files and number of prints actually made from these files. We anonymize this data and show this in your app settings. This data can help you to improve your app so it gives better results when printing a model from it. In the future, we will also add the option to leave comments for each print made so you can get more detailed information about how users experience your app and the printed results.
