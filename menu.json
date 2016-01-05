@@ -5,19 +5,19 @@
 	},
 	{
 		"title": "Printer support",
-		"link": "printer-support"
+		"link": "get-started/printer-support"
 	},
 	{
 		"title": "Run custom client",
-		"link": "run-custom-client"
+		"link": "get-started/run-custom-client"
 	},
 	{
 		"title": "API Integration",
-		"link": "api-integration"
+		"link": "get-started/api-integration"
 	},
 	{
 		"title": "Build an app",
-		"link": "build-an-app"
+		"link": "get-started/build-an-app"
 	},
 
 	{
