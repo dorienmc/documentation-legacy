@@ -18,5 +18,74 @@
 	{
 		"title": "Build an app",
 		"link": "build-an-app"
+	},
+
+	{
+		"title": "APIs",
+		"type": "label"
+	},
+	{
+		"title": "Web API",
+		"link": "web-api"
+	},
+	{
+		"title": "Client API",
+		"link": "client-api"
+	},
+	{
+		"title": "Real-time",
+		"link": "real-time"
+	},
+	{
+		"title": "3D SDK",
+		"link": "3d-sdk"
+	},
+
+	{
+		"title": "Reference",
+		"type": "label"
+	},
+	{
+		"title": "Authentication & scopes",
+		"link": "authentication"
+	},
+	{
+		"title": "Methods",
+		"link": "methods",
+		"children": [
+
+		]
+	},
+	{
+		"title": "Events",
+		"link": "events",
+		"children": [
+
+		]
+	},
+
+	{
+		"title": "Resources",
+		"type": "label"
+	},
+	{
+		"title": "Blog",
+		"link": "",
+		"type": "external"
+	},
+	{
+		"title": "Support",
+		"link": "",
+		"type": "external"
+	},
+	{
+		"title": "GitHub",
+		"link": "https://github.com/PRINTR3D",
+		"type": "external"
+	},
+	{
+		"title": "Policies",
+		"link": "",
+		"type": "external"
 	}
 ]
