@@ -26,19 +26,19 @@
 	},
 	{
 		"title": "Web API",
-		"link": "web-api"
+		"link": "apis/web-api"
 	},
 	{
 		"title": "Client API",
-		"link": "client-api"
+		"link": "apis/client-api"
 	},
 	{
 		"title": "Real-time",
-		"link": "real-time"
+		"link": "apis/real-time"
 	},
 	{
 		"title": "3D SDK",
-		"link": "3d-sdk"
+		"link": "apis/3d-sdk"
 	},
 
 	{
@@ -47,18 +47,18 @@
 	},
 	{
 		"title": "Authentication & scopes",
-		"link": "authentication"
+		"link": "reference/authentication"
 	},
 	{
 		"title": "Methods",
-		"link": "methods",
+		"link": "reference/methods",
 		"children": [
 
 		]
 	},
 	{
 		"title": "Events",
-		"link": "events",
+		"link": "reference/events",
 		"children": [
 
 		]
