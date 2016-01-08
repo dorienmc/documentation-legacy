@@ -46,10 +46,6 @@
 		"type": "label"
 	},
 	{
-		"title": "Authentication & scopes",
-		"link": "reference/authentication"
-	},
-	{
 		"title": "Methods",
 		"link": "reference/methods",
 		"children": [
