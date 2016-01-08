@@ -8,5 +8,5 @@ Welcome to the complete developer documentation of the FORMIDE platform. Here yo
 ---
 ### Quick links
 - [Changelog]()
-- [Integrate the Web API](get-started/api-integration)
-- [Run your own client](get-started/run-custom-client)
+- [Integrate the Web API](#/docs/get-started/api-integration)
+- [Run your own client](#/docs/get-started/run-custom-client)
