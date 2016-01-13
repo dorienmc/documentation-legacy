@@ -4,6 +4,10 @@
 		"type": "label"
 	},
 	{
+		"title": "Setup The Element",
+		"link": "get-started/element-setup-guide"
+	},
+	{
 		"title": "Printer support",
 		"link": "get-started/printer-support"
 	},
