@@ -18,6 +18,7 @@ Make sure you powered on The Element and that it sends out it's own WiFi network
 ---
 ### Connect printer
 To connect the printer, just plug it into The Element's USB port (or via a USB hub if you want to use multiple printers). After plugging it in, you should see a notification in the interface (platform.formide.com) that an unknown printer was found. Click it to setup this printer and select the type or fill in the settings manually. A few seconds after clicking 'setup', it should appear as 'online' in the right sidebar. Now you can 'select' it and start using the printer.
+
 ---
 ### Start first print
 In order to start you first print, you need to have the following items ready: a setup printer (see previous step), at least 1 material setting and at least 1 sliceprofile. To make your life easier, we also added over 60 material presets that you can choose from and copy to your account. Next to that, you can create a new sliceprofile based on our defaults or import your current profile from Cura (other slicers coming soon). Creating and managing these settings can be found under settings -> materials/printers/sliceprofiles.
