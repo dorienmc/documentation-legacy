@@ -1,282 +1,98 @@
 [
 	{
-		"title": "Formide",
-		"link": "formide"
+		"title": "Get started",
+		"type": "label"
 	},
 	{
-		"title": "Guides",
-		"link": "guides",
-		"children": [
-			{
-				"title": "Connect printer",
-				"link": "connect-printer"
-			}
-		]
+		"title": "Setup The Element",
+		"link": "get-started/element-setup-guide"
 	},
 	{
-		"title": "Client",
-		"link": "client",
-		"children": [
-			{
-				"title": "Install",
-				"link": "install",
-				"children": [
-					{
-						"title": "Beta",
-						"link": "beta"
-					},
-					{
-						"title": "NPM",
-						"link": "npm"
-					}
-				]
-			},
-			{
-				"title": "Update",
-				"link": "update"
-			},
-			{
-				"title": "First Login",
-				"link": "first-login"
-			},
-			{
-				"title": "Modules",
-				"link": "modules",
-				"children": [
-					{
-						"title": "Create Module",
-						"link": "create-module"
-					},
-					{
-						"title": "Internal functions",
-						"link": "internal-functions",
-						"children": [
-							{
-								"title": "FormideOS",
-								"link": "formideos"
-							},
-							{
-								"title": "FormideOS.config",
-								"link": "config"
-							},
-							{
-								"title": "FormideOS.events",
-								"link": "events"
-							},
-							{
-								"title": "FormideOS.http",
-								"link": "http"
-							},
-							{
-								"title": "FormideOS.log",
-								"link": "log"
-							},
-							{
-								"title": "FormideOS.module()",
-								"link": "module"
-							},
-							{
-								"title": "FormideOS.moduleManager",
-								"link": "module-manager"
-							},
-							{
-								"title": "FormideOS.settings",
-								"link": "settings"
-							}
-						]
-					}
-				]
-			}
-		]
+		"title": "Printer support",
+		"link": "get-started/printer-support"
+	},
+	{
+		"title": "Run custom client",
+		"link": "get-started/run-custom-client"
+	},
+	{
+		"title": "API Integration",
+		"link": "get-started/api-integration"
+	},
+	{
+		"title": "Build an app",
+		"link": "get-started/build-an-app"
+	},
+
+	{
+		"title": "APIs",
+		"type": "label"
+	},
+	{
+		"title": "Web API",
+		"link": "apis/web-api"
+	},
+	{
+		"title": "Client API",
+		"link": "apis/client-api"
+	},
+	{
+		"title": "Real-time",
+		"link": "apis/real-time"
 	},
 	{
 		"title": "3D SDK",
-		"link": "sdk",
+		"link": "apis/3d-sdk"
+	},
+
+	{
+		"title": "Reference",
+		"type": "label"
+	},
+	{
+		"title": "Methods",
+		"link": "reference/methods",
 		"children": [
-			{
-				"title": "Ambient",
-				"link": "ambient"
-			},
-			{
-				"title": "API",
-				"link": "api"
-			},
-			{
-				"title": "Camera",
-				"link": "camera"
-			},
-			{
-				"title": "Helpers",
-				"link": "helpers"
-			},
-			{
-				"title": "Models",
-				"link": "models"
-			},
-			{
-				"title": "Other",
-				"link": "other"
-			},
-			{
-				"title": "Changelog",
-				"link": "changelog"
-			}
+
+		]
+	},
+	{
+		"title": "Events",
+		"link": "reference/events",
+		"children": [
+
 		]
 	},
 	{
 		"title": "Katana",
-		"link": "katana",
+		"link": "reference/katana",
 		"children": [
-			{
-				"title":"Basics",
-				"link": "basics",
-				"children":[
-					{
-						"title":"Brim",
-						"link":"brim"
-					},
-					{
-						"title":"Infill",
-						"link":"infill"
-					},
-					{
-						"title":"Ooze Shield",
-						"link":"oozeshield"
-					},
-					{
-						"title":"Raft",
-						"link":"raft"
-					},
-					{
-						"title":"Regions",
-						"link":"regions"
-					},
-					{
-						"title":"Skin",
-						"link":"skin"
-					},
-					{
-						"title":"Skirt",
-						"link":"skirt"
-					},
-					{
-						"title":"STL",
-						"link":"STL"
-					},
-					{
-						"title":"Support",
-						"link":"support"
-					},
-					{
-						"title":"Wipe Tower",
-						"link":"wipetower"
-					}
-				]
-			},
-			{
-				"title": "Process",
-				"link": "process"
-			},
-			{
-				"title": "Input",
-				"link": "input",
-				"children": [
-					{
-						"title":"ABS Support",
-						"link": "ABSsupport"
-					},
-					{
-						"title":"Bed",
-						"link":"bed"
-					},
-					{
-						"title":"Bottom",
-						"link":"bottom"
-					},
-					{
-						"title":"Brim",
-						"link":"brim"
-					},
-					{
-						"title":"Extruders",
-						"link":"extruders"
-					},
-					{
-						"title": "Fan",
-						"link": "fan"
-					},
-					{
-						"title":"Gcode",
-						"link":"gcode"
-					},
-					{
-						"title": "Infill",
-						"link": "infill"
-					},
-					{
-						"title":"Layers",
-						"link":"layers"
-					},
-					{
-						"title":"Model",
-						"link":"model"
-					},
-					{
-						"title":"Movement",
-						"link":"movement"
-					},
-					{
-						"title":"Multi Extrusion",
-						"link":"multiextrusion"
-					},
-					{
-						"title": "Raft",
-						"link": "raft"
-					},
-					{
-						"title": "Region Settings",
-						"link": "regionsettings"
-					},
-					{
-						"title": "Retraction",
-						"link": "retraction"
-					},
-					{
-						"title": "Skin",
-						"link": "skin"
-					},
-					{
-						"title": "Skirt",
-						"link": "skirt"
-					},
-					{
-						"title": "Support",
-						"link": "support"
-					},
-					{
-						"title": "Top",
-						"link": "top"
-					}
-				]
-			},
-			{
-				"title": "Output",
-				"link": "output",
-				"children":[
-					{
-						"title":"Logs",
-						"link":"logs"
-					},
-					{
-						"title":"Error Responses",
-						"link":"errorResponse"
-					}
-				]
-			},
-			{
-				"title": "Changelog",
-				"link": "changelog"
-			}
+			
 		]
+	},
+
+	{
+		"title": "Resources",
+		"type": "label"
+	},
+	{
+		"title": "Blog",
+		"link": "",
+		"type": "external"
+	},
+	{
+		"title": "Support",
+		"link": "",
+		"type": "external"
+	},
+	{
+		"title": "GitHub",
+		"link": "https://github.com/PRINTR3D",
+		"type": "external"
+	},
+	{
+		"title": "Policies",
+		"link": "",
+		"type": "external"
 	}
 ]
