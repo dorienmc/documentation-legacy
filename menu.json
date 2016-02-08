@@ -50,8 +50,8 @@
 		"type": "label"
 	},
 	{
-		"title": "Methods",
-		"link": "reference/methods",
+		"title": "HTTP API",
+		"link": "reference/api",
 		"children": [
 
 		]
@@ -70,6 +70,13 @@
 			
 		]
 	},
+	{
+		"title": "3D SDK",
+		"link": "reference/sdk",
+		"children": [
+
+		]
+	},
 
 	{
 		"title": "Resources",
@@ -77,12 +84,12 @@
 	},
 	{
 		"title": "Blog",
-		"link": "",
+		"link": "http://formide-dev.tumblr.com",
 		"type": "external"
 	},
 	{
 		"title": "Support",
-		"link": "",
+		"link": "https://support.formide.com",
 		"type": "external"
 	},
 	{
