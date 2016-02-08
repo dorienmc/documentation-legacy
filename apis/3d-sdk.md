@@ -12,4 +12,4 @@ To simulate authentication locally, you can log in the CLI tools and run your ap
 ### Methods
 The 3D SDK has a lot of built-in methods to make working with 3D models in the browser easier. You can load, manipulate and export models with just a few function calls. 
 
-<a class="btn btn--primary">Full method list</a>
+<a class="btn btn--primary" href="/#/docs/reference/sdk/">Full method list</a>
