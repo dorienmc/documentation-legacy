@@ -15,66 +15,16 @@
 		"title": "Run custom client",
 		"link": "get-started/run-custom-client"
 	},
-	{
-		"title": "API Integration",
-		"link": "get-started/api-integration"
-	},
-	{
-		"title": "Build an app",
-		"link": "get-started/build-an-app"
-	},
-
-	{
-		"title": "APIs",
-		"type": "label"
-	},
-	{
-		"title": "Web API",
-		"link": "apis/web-api"
-	},
-	{
-		"title": "Client API",
-		"link": "apis/client-api"
-	},
-	{
-		"title": "Real-time",
-		"link": "apis/real-time"
-	},
-	{
-		"title": "3D SDK",
-		"link": "apis/3d-sdk"
-	},
 
 	{
 		"title": "Reference",
 		"type": "label"
 	},
 	{
-		"title": "HTTP API",
-		"link": "reference/api",
-		"children": [
-
-		]
-	},
-	{
-		"title": "Events",
-		"link": "reference/events",
-		"children": [
-
-		]
-	},
-	{
 		"title": "Katana",
 		"link": "reference/katana",
 		"children": [
 			
-		]
-	},
-	{
-		"title": "3D SDK",
-		"link": "reference/sdk",
-		"children": [
-
 		]
 	},
 
