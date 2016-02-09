@@ -4,6 +4,8 @@ Katana is a custom slice engine from Printr that was designed to fit seamless in
 
 Katana runs on our cloud platform FORMIDE, embedded on The Element and as a stand-alone [desktop app](http://printr.com/katana).
 
+![katana-desktop](http://uploads.webflow.com/563ff90ea23fe9945411f78d/5677dc1b670b8ed21e38575a_katana_preview.png)
+
 ---
 ### Philosophy
 Why have we built our own slice engine? We had certain key values in mind that our slicing solution should have:
