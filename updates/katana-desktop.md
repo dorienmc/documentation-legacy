@@ -1,5 +1,6 @@
 ---
 ## Katana desktop updates
+This page gives an overview of updates of Katana Desktop
 
 ---
 ### v1.1
