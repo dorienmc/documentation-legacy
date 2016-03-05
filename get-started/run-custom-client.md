@@ -28,9 +28,7 @@ This will install the client, binaries for drivers and Katana and all needed dep
 
 ---
 ### Step 4: Subscribe your MAC address
-To get cloud access with your device, you have to subscribe to FORMIDE and whitelist your MAC address. This way, we know who is
-connecting to our services and that the connection can be trusted. It also allows us to ban users that are doing things with our
-API that they shouldn't be doing ;).
+To get cloud access with your device, you have to subscribe to FORMIDE and whitelist your MAC address. This way, we know who is connecting to our services and that the connection can be trusted.
 
 ---
 ### Step 5: Setup and print!
