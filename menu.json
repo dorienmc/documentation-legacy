@@ -4,10 +4,6 @@
 		"type": "label"
 	},
 	{
-		"title": "Setup The Element",
-		"link": "get-started/element-setup-guide"
-	},
-	{
 		"title": "Printer support",
 		"link": "get-started/printer-support"
 	},
@@ -15,53 +11,10 @@
 		"title": "Run custom client",
 		"link": "get-started/run-custom-client"
 	},
-	{
-		"title": "API Integration",
-		"link": "get-started/api-integration"
-	},
-	{
-		"title": "Build an app",
-		"link": "get-started/build-an-app"
-	},
-
-	{
-		"title": "APIs",
-		"type": "label"
-	},
-	{
-		"title": "Web API",
-		"link": "apis/web-api"
-	},
-	{
-		"title": "Client API",
-		"link": "apis/client-api"
-	},
-	{
-		"title": "Real-time",
-		"link": "apis/real-time"
-	},
-	{
-		"title": "3D SDK",
-		"link": "apis/3d-sdk"
-	},
 
 	{
 		"title": "Reference",
 		"type": "label"
-	},
-	{
-		"title": "Methods",
-		"link": "reference/methods",
-		"children": [
-
-		]
-	},
-	{
-		"title": "Events",
-		"link": "reference/events",
-		"children": [
-
-		]
 	},
 	{
 		"title": "Katana",
@@ -70,6 +23,15 @@
 			
 		]
 	},
+	
+	{
+		"title": "Updates",
+		"type": "label"
+	},
+	{
+		"title": "Katana for Desktop",
+		"link": "updates/katana-desktop"
+	},
 
 	{
 		"title": "Resources",
@@ -77,12 +39,12 @@
 	},
 	{
 		"title": "Blog",
-		"link": "",
+		"link": "http://formidedev.tumblr.com",
 		"type": "external"
 	},
 	{
 		"title": "Support",
-		"link": "",
+		"link": "http://support.formide.com",
 		"type": "external"
 	},
 	{
