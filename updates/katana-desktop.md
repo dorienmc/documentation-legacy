@@ -1,6 +1,6 @@
 ---
 ## Katana desktop updates
-This page gives an overview of updates of Katana Desktop
+This page gives an overview of updates of Katana Desktop. It is compiled manually based on changes in releases of Katana Desktop.
 
 ---
 ### v1.1
